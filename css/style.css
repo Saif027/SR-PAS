@@ -1,0 +1,333 @@
+/* =========================================
+   GENERAL
+========================================= */
+
+body {
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background-color: #f5f7fb;
+
+    color: #212529;
+
+}
+
+
+.card {
+
+    border-radius: 15px;
+
+}
+
+
+.btn {
+
+    border-radius: 8px;
+
+}
+
+
+
+/* =========================================
+   LOGIN PAGE
+========================================= */
+
+.login-page {
+
+    background:
+        linear-gradient(
+            135deg,
+            #e8f0ff,
+            #f8f9fa
+        );
+
+}
+
+
+.logo-circle {
+
+    width: 75px;
+
+    height: 75px;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #0d6efd;
+
+    color: white;
+
+    font-size: 32px;
+
+}
+
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar-brand {
+
+    font-weight: bold;
+
+}
+
+
+.navbar-brand span {
+
+    margin-right: 8px;
+
+}
+
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.dashboard-container {
+
+    padding-top: 30px;
+
+    padding-bottom: 50px;
+
+}
+
+
+
+/* =========================================
+   STAT CARDS
+========================================= */
+
+.dashboard-card {
+
+    border: none;
+
+    border-radius: 15px;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+}
+
+
+.dashboard-card:hover {
+
+    transform:
+        translateY(-4px);
+
+}
+
+
+.stat-icon {
+
+    font-size: 30px;
+
+}
+
+
+.stat-value {
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* =========================================
+   CHART CARDS
+========================================= */
+
+.chart-card {
+
+    border: none;
+
+    border-radius: 15px;
+
+}
+
+
+.chart-container {
+
+    position: relative;
+
+    height: 350px;
+
+}
+
+
+
+/* =========================================
+   TABLE
+========================================= */
+
+.result-table {
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+
+.result-table th {
+
+    white-space: nowrap;
+
+}
+
+
+.result-table td {
+
+    vertical-align: middle;
+
+}
+
+
+
+/* =========================================
+   INSIGHTS
+========================================= */
+
+.insight-card {
+
+    border: none;
+
+    border-left:
+        5px solid #0d6efd;
+
+    border-radius: 10px;
+
+}
+
+
+
+/* =========================================
+   PROGRESS
+========================================= */
+
+.progress {
+
+    height: 10px;
+
+    border-radius: 10px;
+
+}
+
+
+
+/* =========================================
+   REPORT
+========================================= */
+
+.report-container {
+
+    max-width: 1100px;
+
+    margin: 30px auto;
+
+}
+
+
+.report-header {
+
+    border-bottom:
+        2px solid #0d6efd;
+
+    padding-bottom: 15px;
+
+}
+
+
+.report-summary {
+
+    background-color: #f8f9fa;
+
+    border-radius: 10px;
+
+}
+
+
+.report-semester {
+
+    page-break-inside: avoid;
+
+}
+
+
+
+/* =========================================
+   PRINT
+========================================= */
+
+@media print {
+
+    .no-print {
+
+        display: none !important;
+
+    }
+
+
+    body {
+
+        background-color: white;
+
+    }
+
+
+    .report-container {
+
+        margin: 0;
+
+        max-width: 100%;
+
+        box-shadow: none !important;
+
+    }
+
+}
+
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .dashboard-container {
+
+        padding-top: 20px;
+
+    }
+
+
+    .stat-value {
+
+        font-size: 22px;
+
+    }
+
+
+    .chart-container {
+
+        height: 280px;
+
+    }
+
+}
