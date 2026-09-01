@@ -1,6 +1,7 @@
 Student Result & Performance Analytics System
 
 A web-based application for managing, calculating, and analyzing student academic performance across multiple semesters. The system automatically calculates GPA and CGPA, provides interactive performance dashboards, and generates downloadable PDF academic reports.
+
 Project Overview
 
 The Student Result & Performance Analytics System helps students manage their academic results and understand their performance through visual analytics. Users can enter subject marks and credits for different semesters. The system automatically calculates grades, grade points, semester GPA, and overall CGPA. Interactive charts and performance insights help track academic progress over time.
@@ -51,4 +52,6 @@ Technologies Used
 
 Live Website:
 
-Website Link:https://saif027.github.io/SR-PAS/
+[Website Link:https://saif027.github.io/SR-PAS/]
+
+
